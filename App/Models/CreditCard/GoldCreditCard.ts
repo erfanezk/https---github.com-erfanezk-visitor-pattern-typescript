@@ -1,5 +1,6 @@
-import CreditCard from "./CreditCard";
 import OfferVisitor from "../../Visitors/Offer/OfferVisitor";
+import CreditCard from "./CreditCard";
+
 class GoldCreditCard implements CreditCard {
   getName(): string {
     throw new Error("Method not implemented.");
