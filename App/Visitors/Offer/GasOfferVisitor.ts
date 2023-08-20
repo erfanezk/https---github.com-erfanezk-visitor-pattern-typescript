@@ -1,6 +1,6 @@
-import BronzeCreditCard from "../../CreditCard/BronzeCreditCard";
+import BronzeCreditCard from "../../Models/CreditCard/BronzeCreditCard";
 import GoldCreditCard from "../../Models/CreditCard/GoldCreditCard";
-import SilverCreditCard from "../../CreditCard/SilverCreditCard";
+import SilverCreditCard from "../../Models/CreditCard/SilverCreditCard";
 import OfferVisitor from "./OfferVisitor";
 
 export default class GasOfferVisitor implements OfferVisitor {

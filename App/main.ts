@@ -1,4 +1,4 @@
-import BronzeCreditCard from "./CreditCard/BronzeCreditCard";
+import BronzeCreditCard from "./Models/CreditCard/BronzeCreditCard";
 import HotelOfferVisitor from "./Visitors/Offer/HotelOfferVisitor";
 
 const hotelOfferVisitor = new HotelOfferVisitor();
